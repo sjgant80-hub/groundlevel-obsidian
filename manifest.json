@@ -1,0 +1,11 @@
+{
+  "id": "groundlevel",
+  "name": "GroundLevel · UK Legal Research",
+  "version": "0.1.0",
+  "minAppVersion": "1.4.0",
+  "description": "Search the bundled UK case database, run the 7-strand weave engine, score legal risk, draft court-ready documents, and audit compliance — all from inside Obsidian. Citations inserted at cursor. Zero network calls by default.",
+  "author": "Simon Gant",
+  "authorUrl": "https://github.com/sjgant80-hub/groundlevel-obsidian",
+  "fundingUrl": "https://github.com/sjgant80-hub",
+  "isDesktopOnly": false
+}

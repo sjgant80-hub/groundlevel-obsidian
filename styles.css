@@ -1,0 +1,20 @@
+/* ◊ GroundLevel Obsidian plugin styles */
+
+.gl-row { display:flex; align-items:center; margin-bottom:12px; }
+.gl-row input, .gl-row select { background:var(--background-modifier-form-field); border:1px solid var(--background-modifier-border); border-radius:4px; padding:6px 10px; color:var(--text-normal); }
+
+.gl-grid { display:grid; grid-template-columns: 1fr 1fr; gap:10px; margin: 8px 0 14px; }
+.gl-grid > div { display:flex; flex-direction:column; }
+.gl-grid label { font-size:11px; color:var(--text-muted); text-transform:uppercase; letter-spacing:.5px; margin-bottom:3px; }
+.gl-grid input, .gl-grid select { background:var(--background-modifier-form-field); border:1px solid var(--background-modifier-border); border-radius:4px; padding:6px 9px; color:var(--text-normal); }
+
+.gl-results { max-height: 360px; overflow:auto; border-top:1px solid var(--background-modifier-border); padding-top:8px; }
+.gl-hit { display:flex; align-items:flex-start; gap:8px; padding:8px 0; border-bottom:1px solid var(--background-modifier-border); }
+.gl-hit input[type=checkbox] { margin-top:4px; }
+.gl-hit label { flex:1; cursor:pointer; }
+.gl-cite { font-weight:600; font-size:14px; color: var(--text-accent); }
+.gl-prin { font-size:13px; color: var(--text-normal); margin-top:2px; }
+.gl-meta { font-size:11px; color: var(--text-muted); margin-top:2px; }
+.gl-dim { color: var(--text-muted); padding: 8px 0; font-size:13px; }
+
+.gl-actions { margin-top: 14px; display:flex; justify-content:flex-end; gap:8px; }
